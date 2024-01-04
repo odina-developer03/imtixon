@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.BUTTON {
+    color: #198754;
+}
+.BUTTON:hover{
+    background-color: #198754;
+    color: white;
+
+}
+.list:hover {
+    border-bottom: 2px solid #198754;
+}
+.HEADER {
+    background-image: url(images/tog`3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    text-align: center;
+    height: 500px;
+}
+@media only screen and (max-width: 800px) {
+    .wrapper {
+        height: 350px;
+    }
+}
+.boxx {
+    background-image: url(images/tog`3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+.text {
+    font-size: 70px;
+    text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+    .text {
+        font-size: 60px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .text {
+        font-size: 50px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .text {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+.BUTTON {
+    margin-left: 250px;
+}
+@media only screen and (max-width: 1100px) {
+    .BUTTON {
+        margin-left: 220px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .BUTTON {
+        margin-left: 200px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .BUTTON {
+        margin-left: 180px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .BUTTON {
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .BUTTON {
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .BUTTON {
+        margin-left: 60px;
+    }
+}
+.IMG {
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .IMG {
+        display: none;
+    }
+}
+.textt {
+    text-align: center; 
+    font-size: 60px;
+}
+@media only screen and (max-width: 800px) {
+    .textt {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .textt {
+        font-size: 25px;
+    }
+}
