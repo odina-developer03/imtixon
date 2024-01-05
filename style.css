@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.HEADER {
+    background-image: url(images/tog`3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .BUTTON {
     color: #198754;
 }
@@ -14,16 +24,7 @@
 .list:hover {
     border-bottom: 2px solid #198754;
 }
-.HEADER {
-    background-image: url(images/tog`3.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .wrapper {
     text-align: center;
     height: 500px;
